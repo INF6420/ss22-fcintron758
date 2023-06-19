@@ -1,0 +1,75 @@
+.button {
+    background: lightyellow;
+    border: 1px solid;
+    border-radius: 3px;
+    font: 700 13px Cosmic San, Arial;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 20px;
+    text-align: center;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: white (168, 219, 244)
+}
+
+h1 {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    border-color: black;
+    border-width: 3px;
+}
+
+p {
+    color: darkblue;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightyellow;
+    padding: 20px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+p.darkblue h2 {
+    border: 2px solid black;
+}
+
+.magen-img {
+    max-width: 300px;
+    margin-right: 60px;
+}
+
+.my-img {
+    max-width: 300px;
+    max-height: 225px;
+}
+
+.golf-img {
+    max-width: 700px;
+}
+.books {
+
+}
+.book {
+ max-width: 150px;
+}
+footer {
+    text-align: center;
+}
+
+footer h6 {
+    display: block;
+    font-size: 36px;
+    margin: 0;
+}
