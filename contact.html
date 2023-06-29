@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
     <title>Florence's Website</title>
   </head>
 
@@ -11,42 +12,28 @@
     <header>
       <nav>
         <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./book.html">Books</a></li>
-          <li><a href="./spots.html">My Favorite Spots</a></li>
-          <li><a href="./contact.html">Contact</a></li>
+          <li><a class="button" href="./index.html">Home</a></li>
+          <li><a class="button" href="./book.html">Books</a></li>
+          <li><a class="button" href="./spots.html">My Favorite Spots</a></li>
+          <li><a class="button" href="./contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/Hw2OSI4gJNk"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
-
-    <main>
-      <div>
-        <h1>Section Title</h1>
-        <p>
-          Welcome to my website. You'll learn a little about me and my home.
-        </p>
-        <a href="">Learn More</a>
-      </div>
-    </main>
-
-    <footer>
-      <div>
-        <h2>Menu</h2>
-      </div>
-      <div>
-        <h2>Quick Links</h2>
-      </div>
-      <h2>Contact</h2>
-    </footer>
+    <form action="https://formspree.io/f/meqnnypa" method="post" data-validate>
+    <label for="name">Your Name</label>
+    <input name="name" id="name" type="text" class="form-input">
+    
+    <label for="email">Your Email</label>
+    <input name="email" id="email" type="email" class="form-input" required>
+    
+    <label for="message">Your Message</label>
+    <textarea name="message" name="message" class="form-input" required></textarea>
+    
+    <!-- your other form fields go here -->
+    <button type="submit">Submit</button>
+  </form>
+  
+      
   </body>
 </html>
