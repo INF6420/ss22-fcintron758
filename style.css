@@ -1,5 +1,5 @@
 .button {
-    background: lightyellow;
+    background: rgb(247, 242, 208);
     border: 1px solid;
     border-radius: 3px;
     font: 700 13px Cosmic San, Arial;
@@ -51,17 +51,22 @@ p.darkblue h2 {
 
 .magen-img {
     max-width: 300px;
-    margin-right: 60px;
 }
 
 .my-img {
     max-width: 300px;
     max-height: 225px;
+  
 }
 
 .skylinelookout-img{
     max-width: 300px;
     max-height: 225px;
+}
+
+.mountaintop2-img{
+     max-width: 300px;
+     max-height: 225px;
 }
 .golf-img {
     max-width: 700px;
@@ -82,11 +87,6 @@ footer h6 {
     margin: 0;
 }
 
-// form styles
-
-main {
-  width: 80%;
-}
 
 form {
   width: 50%;
@@ -151,14 +151,32 @@ textarea {
 .islands {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .islands div {
- margin: 0 10px;
+ /* margin: 0 10px; */
 }
 
 .islands p {
   font-weight: bold;
   text-align: center;
   font-size: 24px;
+}
+
+
+.my-spots {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: large;
+}
+
+.my-spots div {
+}
+
+
+.my-spots p {
+  text-align: center;
+  font-weight: bold;
 }
