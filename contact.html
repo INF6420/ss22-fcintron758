@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css">
-    <title>Florence's Website</title>
-  </head>
 
-  <body>
-    <h1>Welcome to My Website</h1>
-    <header>
-      <nav>
-        <ul>
-          <li><a class="button" href="./index.html">Home</a></li>
-          <li><a class="button" href="./book.html">Books</a></li>
-          <li><a class="button" href="./spots.html">My Favorite Spots</a></li>
-          <li><a class="button" href="./contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact me">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./validate.js" defer></script>
+  <title>Florence's Website</title>
+</head>
 
-    <form action="https://formspree.io/f/meqnnypa" method="post" data-validate>
+<body>
+  <h1>Welcome to My Website</h1>
+  <header>
+    <nav>
+      <ul>
+        <li><a class="button" href="./index.html">Home</a></li>
+        <li><a class="button" href="./book.html">Books</a></li>
+        <li><a class="button" href="./spots.html">My Favorite Spots</a></li>
+        <li><a class="button" href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <form action="https://formspree.io/f/mleyezjb" method="post" class="validate">
     <label for="name">Your Name</label>
     <input name="name" id="name" type="text" class="form-input">
     
@@ -28,12 +31,12 @@
     <input name="email" id="email" type="email" class="form-input" required>
     
     <label for="message">Your Message</label>
-    <textarea name="message" name="message" class="form-input" required></textarea>
+    <textarea name="message" id="message" class="form-input" required></textarea>
     
-    <!-- your other form fields go here -->
     <button type="submit">Submit</button>
   </form>
   
-      
-  </body>
+
+</body>
+
 </html>
