@@ -251,7 +251,7 @@ textarea {
 }
 
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 320px) {
 
   main {
     width: 100%;
@@ -260,6 +260,10 @@ textarea {
     flex-direction: column;
     padding: 0 12px;
   }
+
+  .my-spots {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -267,7 +271,47 @@ textarea {
   main {
     width: 100%;
   }
+
+  body {
+    margin: 0;
+  }
   .islands {
     padding: 0 12px;
+  }
+
+  .my-spots {
+    align-items: unset;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  p.darkblue {
+    font-size: 16px;
+    word-break: break-all;
+    max-width: 85%;
+  }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+  main {
+    width: 100%;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .my-spots {
+    align-items: unset;
+    flex-wrap: wrap;
+  }
+
+  p.darkblue {
+    font-size: 18px;
+    word-break: break-all;
+    max-width: 90%;
   }
 }
